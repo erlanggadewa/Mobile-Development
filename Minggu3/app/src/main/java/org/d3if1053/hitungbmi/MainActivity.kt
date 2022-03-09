@@ -14,6 +14,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.hitungBtn.setOnClickListener { hitungBMI() }
+        binding.resetBtn.setOnClickListener { resetField() }
+    }
+
+    private fun resetField() {
+        binding.bmiTextView.text = ""
+        binding.kategoriTextView.text = ""
+        binding.radioGroup.clearCheck()
+        binding.tinggiField.text = null
+        binding.bbField.text = null
+        binding.tinggiField.clearFocus()
+        binding.bbField.clearFocus()
     }
 
     private fun hitungBMI() {
