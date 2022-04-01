@@ -21,20 +21,20 @@ class MainActivity : AppCompatActivity() {
         binding.bmiTextView.text = ""
         binding.kategoriTextView.text = ""
         binding.radioGroup.clearCheck()
-        binding.tinggiField.text = null
-        binding.bbField.text = null
-        binding.tinggiField.clearFocus()
-        binding.bbField.clearFocus()
+        binding.beratBadanInp.text = null
+        binding.tinggiBadanInp.text = null
+        binding.beratBadanInp.clearFocus()
+        binding.tinggiBadanInp.clearFocus()
     }
 
     private fun hitungBMI() {
-        val berat = binding.bbField.text.toString()
+        val berat = binding.beratBadanInp.text.toString()
         if (TextUtils.isEmpty(berat)) {
             Toast.makeText(this, R.string.berat_invalid, Toast.LENGTH_LONG).show()
             return
         }
 
-        val tinggi = binding.tinggiField.text.toString()
+        val tinggi = binding.tinggiBadanInp.text.toString()
         if (TextUtils.isEmpty(tinggi)) {
             Toast.makeText(this, R.string.tinggi_invalid, Toast.LENGTH_LONG).show()
             return
