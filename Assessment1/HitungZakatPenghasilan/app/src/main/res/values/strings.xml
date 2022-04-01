@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hitung Zakat Penghasilan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro">Kalkulator zakat penghasilan adalah layanan untuk mempermudah perhitungan jumlah zakat penghasilan yang harus ditunaikan oleh setiap umat muslim sesuai ketetapan syariah. Oleh karena itu, bagi Anda yang ingin mengetahui berapa jumlah zakat yang harus ditunaikan, silahkan gunakan fasilitas Kalkulator Zakat penghasilan dibawah ini.</string>
+    <string name="hint_harga_emas">Masukan Harga Emas Pergram</string>
+    <string name="hint_penghasilan">Masukan Penghasilan Bulanan</string>
+    <string name="hitung">Hitung</string>
+    <string name="reset">Reset</string>
+    <string name="bonus_thr_dan_lainnya">Bonus, THR dan lainnya</string>
+    <string name="output">Jumlah zakat penghasilan Anda : Rp %1$d,-</string>
+    <string name="error">Data yang anda inputkan tidak valid!</string>
+
+</resources>
